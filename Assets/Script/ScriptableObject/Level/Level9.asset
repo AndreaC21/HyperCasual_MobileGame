@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e51497a82f12164fa3eee8b591fbcc2, type: 3}
+  m_Name: Level9
+  m_EditorClassIdentifier: 
+  _characterOnStart: 1
+  _obstacle:
+  - _obstacle: {fileID: 11400000, guid: 19ca1e7b6ae9349428bac31af7948674, type: 2}
+    _position: {x: 0, y: 0, z: 20}
+  - _obstacle: {fileID: 11400000, guid: df34782fa54fb07479ccf82103978d16, type: 2}
+    _position: {x: 0, y: 0, z: 40}
+  - _obstacle: {fileID: 11400000, guid: 0e8ee9d00af337f4da8fa0d8a3ecc946, type: 2}
+    _position: {x: 0, y: 0, z: 80}
+  - _obstacle: {fileID: 11400000, guid: 0e8ee9d00af337f4da8fa0d8a3ecc946, type: 2}
+    _position: {x: -5, y: 0, z: 80}
+  - _obstacle: {fileID: 11400000, guid: df34782fa54fb07479ccf82103978d16, type: 2}
+    _position: {x: 0, y: 0, z: 100}
+  _npcCharacterArea:
+  - _quantityCharacter: 10
+    _position: {x: 0, y: 0, z: 60}
+  _groundSize: 150

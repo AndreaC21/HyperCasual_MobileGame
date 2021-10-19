@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2815b412097d24fab4cb1f48223adf, type: 3}
+  m_Name: MovingWallVertical
+  m_EditorClassIdentifier: 
+  _scale: {x: 15, y: 4, z: 1}
+  _obstacleType: 2
+  _prefab: {fileID: 2745907432201376698, guid: 37105a4e8c2a25c4f90c5975d07c6cd0, type: 3}
+  _moveVertical: 1
+  _moveHorizontal: 0
